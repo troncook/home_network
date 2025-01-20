@@ -17,4 +17,4 @@ This repository demonstrates how to:
 
 1. **Clone** the repository:
    ```bash
-   git clone https://github.com/YourUsername/home-network-investigation.git
+   git clone https://github.com/troncook/home-network-investigation.git
