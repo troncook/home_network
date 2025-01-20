@@ -1,11 +1,11 @@
 # main.py
-from auto_subnet import get_local_subnet
+from auto_subnet import auto_select_subnet
 from network_scan import scan_network
 from packet_capture import live_capture
 
 def main():
     # 1. Get subnet automatically
-    subnet = get_local_subnet()
+    subnet = auto_select_subnet()
     if subnet is None:
         print("Unable to determine subnet. Please set manually.")
         return
